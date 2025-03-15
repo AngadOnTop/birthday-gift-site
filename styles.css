@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: HappyMonkey;
+    src: url(fonts/HappyMonkey-Regular.ttf);
+}
+body {
+    text-align: center;
+    background-color: #a2d2ff;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: white;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: HappyMonkey, cursive;
+    text-shadow: 0px 0px 1px black;
+}
+#img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border:  6px solid #EFB0C9;
+}
+#bday-age {
+    margin-top: 25px 0px 15px 0px;
+    background-color: #EFB0C9;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+#bdaydob {
+    margin: 0px;
+    background-color: #EFB0C9;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.gift-section {
+    margin-top: 50px;
+}
+.img {
+    margin: 20px auto;
+    background-image: url(img/—Pngtree—gift\ wrapping\ ribbon_5929124.png);
+    background-size: cover;
+    background-position: 90px;
+    background-position-y: -50px;
+    width: 400px;
+    height: 400px;
+    background-color: #ff005c;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+.top {
+    font-family: HappyMonkey;
+    text-shadow: 0px 0px 1px black;
+    margin-bottom: 10px;
+}
+.hover {
+    margin-top: 0px;
+    font-family: HappyMonkey;
+    text-shadow: 0px 0px 1px black;
+}
+#img-happy:hover {
+    background-image: url(videos/Party\ Raccoon\ GIF.gif);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+#img-react:hover {
+    background-image: url(videos/So\ Excited\ Flirting\ GIF.gif);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+#img-genius:hover {
+    background: url(videos/Good\ Mythical\ Morning\ Agree\ GIF\ by\ Rhett\ and\ Link.gif);
+    background-size: cover;
+}
+#img-badass:hover {
+    background-image: url(videos/Christian\ Bale\ Batman\ GIF.gif);
+    background-size: cover;
+    background-position: 50%;
+}
+#img-last {
+    height: 200px;
+
+}
+#img-last:hover {
+    background-image: url(videos/Celebrate\ In\ Love\ GIF\ by\ Max.gif);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
