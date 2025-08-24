@@ -7,5 +7,5 @@ const music = document.getElementById("pedro");
 
         box.addEventListener("mouseleave", () => {
             music.pause();
-            music.currentTime = 0; // Resets music when you hover again
+            music.currentTime = 0; 
         });
